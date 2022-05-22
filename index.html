@@ -8,14 +8,254 @@
         <link href="css/styles.css" type="text/css" rel="stylesheet">
     </head>    
     <body>
-        <h1>HTML5 Cheatsheet</h1>
-        <h2>Table Tags</h2>
+        <!--Title Heading-->
+        <h1>HTML5 CHEATSHEET</h1>
+        <!--HTML Basic Tags-->
+        <h2>html basic tags</h2>
+        <h3>Example: &#60;p&#62;insert paragraph text here&#60;p&#62;</h3>
         <table>
             <thead>
                 <tr>
-                    <th>Tag</th>
-                    <th>Name</th>
-                    <th>Description</th>
+                    <th>tag</th>
+                    <th>name</th>
+                    <th>description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span class="code">&#60;!DOCTYPE html&#62;</span>
+                    </td>
+                    <td>!doctype</td>
+                    <td>all html documents must start with a document type declaration.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;html&#62;</span>
+                    </td>
+                    <td>html</td>
+                    <td>the document begins with the html tag where the content is inside.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;body&#62;</span>
+                    </td>
+                    <td>body</td>
+                    <td>the visible part of the html document.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;header&#62;</span>
+                    </td>
+                    <td>header</td>
+                    <td>the visible header of the html document.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;footer&#62;</span>
+                    </td>
+                    <td>footer</td>
+                    <td>the visible footer of the html document.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;div&#62;</span>
+                    </td>
+                    <td>div</td>
+                    <td>defines a division/section in an html document.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;h1-h6&#62;</span>
+                    </td>
+                    <td>headings</td>
+                    <td>defines the html headings and there is 6 levels of hierarchy in total.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;p&#62;</span>
+                    </td>
+                    <td>paragraph</td>
+                    <td>defines a html paragraph.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;a&#62;</span>
+                    </td>
+                    <td>anchor point</td>
+                    <td>defines a hyperlink on the given text. must be used in conjunction with an attribute. </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;img&#62;</span>
+                    </td>
+                    <td>image</td>
+                    <td>displays an image in conjunction with an attribute. </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;!--comment--&#62;</span>
+                    </td>
+                    <td>comment</td>
+                    <td>creates comment made by the developer. (can only be seen in source code) </td>
+                </tr>
+            </tbody>
+        </table>
+        <!--HTML Attributes-->
+        <h2>html attributes</h2>
+        <h3>Example: &#60;img src="img_girl.jpg" width="500" height="600"&#62;</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>tag</th>
+                    <th>name</th>
+                    <th>description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span class="code">href=""</span>
+                    </td>
+                    <td>href</td>
+                    <td>defines the hyperlink url of the page that the link goes to.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">src=""</span>
+                    </td>
+                    <td>src</td>
+                    <td>specifies the path of the image to be displayed.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">width="" & height=""</span>
+                    </td>
+                    <td>width and height</td>
+                    <td>specifies the width and height of the image (in pixels).</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">alt=""</span>
+                    </td>
+                    <td>alt</td>
+                    <td>if the image for some reason cannot be displayed. descriptive text will be shown instead.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">style=""</span>
+                    </td>
+                    <td>style</td>
+                    <td>used to add styles to an element, such as color, font, size and more.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">lang=""</span>
+                    </td>
+                    <td>language</td>
+                    <td>used with html tag. declares the language of the webpage. seo optimisation.</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">title=""</span>
+                    </td>
+                    <td>title</td>
+                    <td>defines extra information about and element.</td>
+                </tr>
+            </tbody>
+        </table>
+        <!--HTML Formatting Elements-->
+        <h2>HTML Formatting Elements</h2>
+        <h3>Example: &#60;b&#62;bold text here&#60;/b&#62;</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>tag</th>
+                    <th>name</th>
+                    <th>description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <span class="code">&#60;b&#62;</span>
+                    </td>
+                    <td>bold</td>
+                    <td>bolds text</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;strong&#62;</span>
+                    </td>
+                    <td>strong</td>
+                    <td>important text</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;i&#62;</span>
+                    </td>
+                    <td>italic</td>
+                    <td>italic text</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;em&#62;</span>
+                    </td>
+                    <td>emphasize</td>
+                    <td>emphasizes text</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;mark&#62;</span>
+                    </td>
+                    <td>mark</td>
+                    <td>marked text</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;small&#62;</span>
+                    </td>
+                    <td>small</td>
+                    <td>smaller text</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;del&#62;</span>
+                    </td>
+                    <td>del</td>
+                    <td>deleted text</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;ins&#62;</span>
+                    </td>
+                    <td>inserted</td>
+                    <td>inserted text</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;sub&#62;</span>
+                    </td>
+                    <td>subscript</td>
+                    <td>subscripts text</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">&#60;sup&#62;</span>
+                    </td>
+                    <td>superscript</td>
+                    <td>superscripts text</td>
+                </tr>
+            </tbody>
+        </table>
+        <!--Table Tags-->
+        <h2>table tags</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>tag</th>
+                    <th>name</th>
+                    <th>description</th>
                 </tr>
             </thead>
             <tbody>
@@ -23,54 +263,54 @@
                     <td>
                         <span class="code">&#60;table&#62;</span>
                     </td>
-                    <td>Table</td>
-                    <td>The wrapper element for all HTML tables.</td>
+                    <td>table</td>
+                    <td>the wrapper element for all html tables.</td>
                 </tr>
                 <tr>
                     <td>
                         <span class="code">&#60;thead&#62;</span>
                     </td>
-                    <td>Table Head</td>
-                    <td>The set of rows defining the column headers in a table.</td>
+                    <td>table head</td>
+                    <td>the set of rows defining the column headers in a table.</td>
                 </tr>
                 <tr>
                     <td>
                         <span class="code">&#60;tbody&#62;</span>
                     </td>
-                    <td>Table Body</td>
-                    <td>The set of rows containing actual table data.</td>
+                    <td>table body</td>
+                    <td>the set of rows containing actual table data.</td>
                 </tr>
                 <tr>
                     <td>
                         <span class="code">&#60;tr&#62;</span>
                     </td>
-                    <td>Table Row</td>
-                    <td>The table row container.</td>
+                    <td>table row</td>
+                    <td>the table row container.</td>
                 </tr>
                 <tr>
                     <td>
                         <span class="code">&#60;td&#62;</span>
                     </td>
-                    <td>Table Data</td>
-                    <td>Defines a standard data cell in an HTML table.</td>
+                    <td>table data</td>
+                    <td>defines a standard data cell in an html table.</td>
                 </tr>
                 <tr>
                     <td>
                         <span class="code">&#60;tfoot&#62;</span>
                     </td>
-                    <td>Table Foot</td>
-                    <td>The set of rows defining the footer in a table.</td>
+                    <td>table foot</td>
+                    <td>the set of rows defining the footer in a table.</td>
                 </tr>
             </tbody>
         </table>
-        
-        <h2>Table Attributes</h2>
+        <!--Table Attributes-->
+        <h2>table attributes</h2>
         <table>
             <thead>
                 <tr>
-                    <th>Attribute</th>
-                    <th>Name</th>
-                    <th>Description</th>
+                    <th>attribute</th>
+                    <th>name</th>
+                    <th>description</th>
                 </tr>   
             </thead>
             <tbody>
@@ -78,26 +318,26 @@
                     <td>
                         <span class="code">colspan</span>
                     </td>
-                    <td>Column Span</td>
-                    <td>Defines how many columns a td element should span.</td>
+                    <td>column span</td>
+                    <td>defines how many columns a td element should span.</td>
                 </tr>
                 <tr>
                     <td>
                         <span class="code">rowspan</span>
                     </td>
-                    <td>Row Span</td>
-                    <td>Defines how many rows a td element should span.</td>
+                    <td>row span</td>
+                    <td>defines how many rows a td element should span.</td>
                 </tr>
             </tbody>
         </table>
-
-        <h2>Form Tags</h2>
+        <!--Form Tags-->
+        <h2>form tags</h2>
         <table>
             <thead>
                 <tr>
-                    <th>Tag</th>
-                    <th>Name</th>
-                    <th>Description</th>
+                    <th>tag</th>
+                    <th>name</th>
+                    <th>description</th>
                 </tr>
             </thead>
             <tbody>
@@ -105,33 +345,33 @@
                     <td>
                         <span class="code">&#60;form&#62;</span>
                     </td>
-                    <td>Form</td>
-                    <td>The element for all HTML forms.</td>
+                    <td>form</td>
+                    <td>the element for all html forms.</td>
                 </tr>
                 <tr>
                     <td>
                         <span class="code">&#60;input&#62;</span>
                     </td>
-                    <td>Input</td>
-                    <td>The element for allowing user inputs.</td>
+                    <td>input</td>
+                    <td>the element for allowing user inputs.</td>
                 </tr>
                 <tr>
                     <td>
                         <span class="code">&#60;label&#62;</span>
                     </td>
-                    <td>Label</td>
-                    <td>Defines a lable for form elements.</td>
+                    <td>label</td>
+                    <td>defines a lable for form elements.</td>
                 </tr>
             </tbody>
         </table>
-
-        <h2>Form &#60;input&#62; Attributes</h2>
+        <!--Form <input> Attributes-->
+        <h2>form &#60;input&#62; attributes</h2>
         <table>
             <thead>
                 <tr>
-                    <th>Tag</th>
-                    <th>Name</th>
-                    <th>Description</th>
+                    <th>tag</th>
+                    <th>name</th>
+                    <th>description</th>
                 </tr>
             </thead>
             <tbody>
@@ -139,37 +379,45 @@
                     <td>
                         <span class="code">&#60;input type="text"&#62;</span>
                     </td>
-                    <td>Input Type Text</td>
-                    <td>Displays a single-line text input field.</td>
+                    <td>input type text</td>
+                    <td>displays a single-line text input field.</td>
                 </tr>
                 <tr>
                     <td>
                         <span class="code">&#60;input type="radio"&#62;</span>
                     </td>
-                    <td>Input Type Radio</td>
-                    <td>Displays a radio button (for selecting one of many choices).</td>
+                    <td>input type radio</td>
+                    <td>displays a radio button (for selecting one of many choices).</td>
                 </tr>
                 <tr>
                     <td>
                         <span class="code">&#60;input type="checkbox"&#62;</span>
                     </td>
-                    <td>Input Type Checbox</td>
-                    <td>Displays a checkbox (for selecting zero or more of many choices).</td>
+                    <td>input type checkbox</td>
+                    <td>displays a checkbox (for selecting zero or more of many choices).</td>
                 </tr>
                 <tr>
                     <td>
                         <span class="code">&#60;input type="submit"&#62;</span>
                     </td>
-                    <td>Input Type Submit</td>
-                    <td>Displays a submit button (for submitting the form).</td>
+                    <td>input type submit</td>
+                    <td>displays a submit button (for submitting the form).</td>
                 </tr>
                 <tr>
                     <td>
                         <span class="code">&#60;input type="button"&#62;</span>
                     </td>
-                    <td>Input Type Button</td>
-                    <td>Displays a clickable button.</td>
+                    <td>input type button</td>
+                    <td>displays a clickable button.</td>
                 </tr>
-
+            </tbody>
+        </table>
     </body>
+    <!--Footer-->
+    <footer>
+        <p>author: warren spalding (shaqiloheal)</p>
+        <p>bsc computing science</p>
+        <p>university of aberdeen</p>
+        <p><a href="https://github.com/Shaqiloheal">github</a>   <a href="https://www.linkedin.com/in/warren-spalding-wfs/">linkedin</a></p>
+    </footer>
 </html>

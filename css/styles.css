@@ -1,17 +1,28 @@
+@font-face {
+    font-family: 'Major Mono Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/majormonodisplay/v12/RWmVoLyb5fEqtsfBX9PDZIGr2tFubRh7DXeR.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
 html {
-    display: block
+    display: block;
+    text-transform: lowercase;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: gainsboro;
+    background-color: #373e98;
     display: block;
     margin: 8px;
 }
 
 h1 {
+    color: #fee36e;
     text-align: center;
     display: block;
+    font-family: 'Major Mono Display';
     font-size: 2em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
@@ -21,9 +32,10 @@ h1 {
 }
 
 h2 {
-    color: rebeccapurple;
+    color: #fee36e;
     text-align: center;
     display: block;
+    font-family: 'Major Mono Display';
     font-size: 1.5em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
@@ -32,8 +44,16 @@ h2 {
     font-weight: bold;
 }
 
+h3 {
+    color: #fee36e;
+    text-align: center;
+    display: block;
+    font-family: 'Major Mono Display';
+    font-size: 15px;
+}
+
 table {
-    border: 2px solid darkorchid;
+    border: 2px solid #ceb92c;
     width: 650px;
     margin: 0 auto;
     display: table;
@@ -53,7 +73,7 @@ table {
 }
 
 thead {
-    background-color: plum;
+    background-color: #f16775;
     display: table-header-group;
     vertical-align: middle;
     border-color: inherit;
@@ -71,21 +91,33 @@ thead {
 }
 
 tr {
+    background: #2a2a2a;
     display: table-row;
     vertical-align: inherit;
     border-color: inherit;
 }
 
 td {
-    border-top: 1px solid darkorchid;
+    color: #fee36e;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
     display: table-cell;
     vertical-align: inherit;
+    font-family: 'Major Mono Display';
 }
 
 th {
+    color: #f16775;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
     display: table-cell;
     vertical-align: inherit;
-    font-weight: bold;
+    font-family: 'Major Mono Display';
+    font-weight: 800;
     text-align: -internal-center;
 }
 
@@ -97,6 +129,28 @@ tbody {
 
 .code {
     font-family: monospace;
-    background-color: beige;
+    background-color: #2a2a2a;
+}
+
+footer {
+    display: block;
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer,
+p {
+    color: #ceb92c;
+    font-family: 'Major Mono Display';
+    font-weight: bold;
+    
+}
+
+a {
+    color:#f16775;
+    word-spacing: 100px;
 }
 
