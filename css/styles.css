@@ -13,13 +13,13 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #373e98;
+    background-color: #000814;
     display: block;
     margin: 8px;
 }
 
 h1 {
-    color: #fee36e;
+    color: #ffd60a;
     text-align: center;
     padding: 10px;
     display: block;
@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-    color: #fee36e;
+    color: #ffd60a;
     text-align: center;
     padding: 10px;
     display: block;
@@ -47,7 +47,7 @@ h2 {
 }
 
 h3 {
-    color: #fee36e;
+    color: #ffc300;
     text-align: center;
     display: block;
     font-family: 'Major Mono Display';
@@ -93,7 +93,7 @@ thead {
 }
 
 tr {
-    background: #2a2a2a;
+    background-color: #001d3d;
     display: table-row;
     vertical-align: inherit;
     border-color: inherit;
@@ -112,7 +112,7 @@ td {
 }
 
 th {
-    color: #f16775;
+    color: #ffc300;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     border-left: 1px solid gray;
@@ -132,7 +132,7 @@ tbody {
 
 .code {
     font-family: monospace;
-    background-color: #2a2a2a;
+    background-color: #003566;
 }
 
 footer {
@@ -153,7 +153,7 @@ p {
 }
 
 a {
-    color:#f16775;
+    color:#ffc300;
     word-spacing: 100px;
 }
 
